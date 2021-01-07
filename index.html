@@ -12,7 +12,7 @@ skip_header_padding: true
 <div class="row">
     {% for announcement in site.announcements %}
     <div class="col-md-12">
-        <div class="alert {{ announcement.class }}">
+        <div class="{{ announcement.class }}">
             <p><center>{{ announcement.content | markdownify }}</center></p>
         </div>
     </div>
