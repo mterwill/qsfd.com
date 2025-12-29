@@ -12,6 +12,7 @@ $(function() {
     'IMG_0147.jpg',
     'IMG_0191.jpg',
     'IMG_8583.jpg',
+	'IMG_9868.jpg',  
     'Resized_20200420_170057.jpeg',
   ];
 
