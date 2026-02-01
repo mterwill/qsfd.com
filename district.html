@@ -3,13 +3,13 @@ nav_title: District
 title: 'Quaker Springs Fire District #1'
 nav_order: 6
 policies:
-    - name: 01-Agricultural-Exemption-Policy.pdf
+    - name: Agricultural-Exemption-Policy
       link: <a href="assets/pdf/policies/01-Agricultural-Exemption-Policy.pdf">
-    - name: 02-Alcohol-Policy.pdf
+    - name: Alcohol-Policy
       link: <a href="assets/pdf/policies/02-Alcohol-Policy.pdf">
-    - name: 03-Apparatus-Committee-Policy.pdf
+    - name: Apparatus-Committee-Policy
       link: <a href="assets/pdf/policies/03-Apparatus-Committee-Policy.pdf">
-    - name: 04-Code-of-Ethics-Policy.pdf
+    - name: Code-of-Ethics-Policy
       link: <a href="assets/pdf/policies/04a-Code-of-Ethics-Policy.pdf">
         
 ---
@@ -42,7 +42,7 @@ Members and the public are encouraged to attend.</p>
     <div class="col-md-12" style="column-count: 2;">
         <ul>
             {% for policy in page.policies %}
-             <li>{{policy.link}}</li>
+              <li>{{policy.name}} {{policy.link}}</li>
             {% endfor %}
         </ul>
     </div>
