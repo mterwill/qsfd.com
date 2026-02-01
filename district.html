@@ -37,3 +37,13 @@ hamlet of Quaker Springs, with the exception of May when the meeting
 will be held at our substation at 1432 NYS Rt 9P at the north end of Saratoga Lake.</p>
 <p>All meetings of the Board of Fire Commissioners are open to the public.
 Members and the public are encouraged to attend.</p>
+<h3>Active Policies</h3>
+<div class="row">
+    <div class="col-md-12" style="column-count: 2;">
+        <ul>
+            {% for policy in page.policies %}
+            <li>{{policy.name}} <small>{{policy.link}}</small></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
