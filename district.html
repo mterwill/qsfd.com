@@ -39,13 +39,13 @@ Members and the public are encouraged to attend.</p>
 <h3>Active Policies</h3>
 {% assign base_url = "qsfd.com/assets/pdf/policies/" %}
 <div class="row">
-    <div class="col-md-12" style="column-count: 1;">
+   
         <ul>
             {% for policy in page.policies %}
 			<li>   <a href="http://{{ base_url|append:{{policy.name}}">{{policy.name}}</a> </li>
             {% endfor %}
         </ul>
-    </div>
+    
 </div>
 <!--
 <h3>Active Policies</h3>
