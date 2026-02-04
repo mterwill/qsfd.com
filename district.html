@@ -33,12 +33,12 @@ will be held at our substation at 1432 NYS Rt 9P at the north end of Saratoga La
 Members and the public are encouraged to attend.</p>
 
 <h3>Active Policies</h3>
-{% assign social_url = "qsfd.com/assets/pdf/policies/" %}
+{% assign base_url = "qsfd.com/assets/pdf/policies/" %}
 <div class="row">
     <div class="col-md-12" style="column-count: 2;">
         <ul>
             {% for policy in page.policies %}
-			  <a href="http://{{ social_url|append:{{policy.name}}">Visit my Policy</a>
+			  <a href="http://{{ base_url|append:{{policy.name}}">{{policy.name}}</a>
             {% endfor %}
         </ul>
     </div>
