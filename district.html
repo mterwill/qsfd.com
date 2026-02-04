@@ -2,6 +2,13 @@
 nav_title: District
 title: 'Quaker Springs Fire District #1'
 nav_order: 6
+		policies:
+    - name: 01-Agricultural-Exemption-Policy.pdf     
+    - name: 02-Alcohol-Policy.pdf     
+    - name: 03-Apparatus-Committee-Policy.pdf     
+    - name: 04a-Code-of-Ethics-Policy.pdf
+	- name: 04b-Code-of-Ethics-Resolution.pdf
+	- name: 05-Credit-Card-Use-Policy.pdf
 ---
 
 <h3 style="text-align: center;">2026 Board of Fire Commissioners</h3>
@@ -28,19 +35,19 @@ hamlet of Quaker Springs, with the exception of May when the meeting
 will be held at our substation at 1432 NYS Rt 9P at the north end of Saratoga Lake.</p>
 <p>All meetings of the Board of Fire Commissioners are open to the public.
 Members and the public are encouraged to attend.</p>
-<!--
+
 <h3>Active Policies</h3>
 {% assign base_url = "qsfd.com/assets/pdf/policies/" %}
 <div class="row">
     <div class="col-md-12" style="column-count: 1;">
         <ul>
             {% for policy in page.policies %}
-			  <a href="http://{{ base_url|append:{{policy.name}}">{{policy.name}}</a>
+			<li>   <a href="http://{{ base_url|append:{{policy.name}}">{{policy.name}}</a> </li>
             {% endfor %}
         </ul>
     </div>
 </div>
-
+<!--
 <h3>Active Policies</h3>
 <div class="row">
     
